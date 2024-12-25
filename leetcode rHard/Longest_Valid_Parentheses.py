@@ -17,7 +17,7 @@ class Solution(object):
                 if not stack:
                     stack.append(i)
                 else:
-                    result = max(result,i-stack[-1])
+                    result = max(result,i-stack[0])
         return result
         
 # @lc code=end
